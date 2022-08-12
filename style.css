@@ -1,0 +1,320 @@
+/* font */
+/* 1 Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+/* 2 Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Roboto:wght@300&display=swap');
+
+/* format text judul */
+h3{
+    font-family: 'Nunito', sans-serif;
+    color: #3CCF4E;
+}
+
+section{
+    padding-top: 1rem;
+}
+
+/* navbar */
+.navbar-brand{
+    color: #3CCF4E;
+    font-family: 'Nunito', sans-serif;
+}
+.navbar{
+    background-color: #FAFDD6;
+}
+
+.navbar-nav{
+    justify-content: end;
+}
+
+.nav-link{
+    margin-right: 30px;
+    color: #3CCF4E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #003865;
+}
+/* akhir navbar */
+
+/* jumbotron */
+.body-jumbotron{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.body-jumbotron .text1{
+    color: #BCCC9A;
+}
+
+.body-jumbotron .gambar{
+    background-color: #3CCF4E;
+    border-radius: 10%;
+}
+/* akhir jumbotron */
+
+/* about */
+.body-about{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.heading1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    color: #3CCF4E;
+}
+
+.heading2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #003865;
+}
+
+.text1{
+    font-family: 'Roboto', sans-serif;
+    color: #989A99;
+}
+/* akhir about */
+
+/* keahlian */
+.body-keahlian i{
+    color: #3CCF4E;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.body-keahlian{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.body-keahlian .card{
+    background-color: #FAFDD6;
+    border: none;
+}
+
+.body-keahlian .card-title{
+    color: #3CCF4E;
+}
+
+.body-keahlian .card-text{
+    color: #7F8B52;
+    font-family: 'Roboto', sans-serif;
+}
+/* akhir keahlian */
+
+/* project */
+.body-project{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.card-projek{
+    border-radius: 10px;
+    border: none; 
+    margin-bottom: 1rem;
+}
+
+.img-projek{
+    background-color: #FAFDD6;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* akhir project */
+
+/* contact */
+.body-contact{
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.card-body .card{
+    padding: 10px;
+    background-color: #FAFDD6;
+    border-radius: 10px;
+    color: #3CCF4E;
+}
+
+.body-contact .btn{
+    width: 100%;
+    background-color: #3CCF4E;
+    color: white;
+}
+
+.my-alert{
+    background-color: #BCCC9A;
+    
+}
+/* akhir contact */
+
+
+/* footer */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    padding: 30px 0;
+}
+
+.footer .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-footer{
+    width: 25%;
+    padding: 0 15px;
+}
+
+/* font judul footer */
+.col-footer h4{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #3CCF4E;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+/* garis hijau */
+.col-footer h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #3CCF4E;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+}
+
+/* content footer */
+.col-footer ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.alamat-footer p{
+    margin-bottom: 10px;
+    color: #BCCC9A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 300;
+}
+
+.col-footer ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #BCCC9A;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.col-footer ul li a:hover{
+    color: #3CCF4E;
+    padding-left: 8px;
+}
+
+.col-footer .link-media a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(44, 161, 33, 0.5);
+    margin-right: 10px;
+    border-radius: 50%;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    color: #FAFDD6;
+    transition: all 0.5s ease;
+}
+
+.col-footer .link-media a:hover{
+    color: #003865;
+    background-color: #3CCF4E;
+}
+
+.footer .container{
+    margin: auto;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+
+
+h5{
+    font-family: 'Nunito', sans-serif;
+    color: #3CCF4E;
+}
+
+#footer{
+    background-color: #FAFDD6;
+} 
+/* akhir footer */
+
+
+/* responsive mobile apps */
+@media (max-width: 575.98px) {
+
+    /* body-jumbotron */
+    .body-jumbotron{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    /* body-about */
+    .body-about{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    /* body-keahlian */
+    .body-keahlian{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    /* body-projek */
+    .body-project{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    /* body-contact */
+    .body-contact{
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    /* footer */
+    .col-footer{
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+ }
+
+/* responsive*/
+@media (max-width: 767.98px) { 
+    
+}
+
+/* responsive tablet */
+@media (max-width: 991.98px) { 
+
+ }
