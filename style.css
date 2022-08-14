@@ -107,6 +107,10 @@ section{
     margin-bottom: 10px;
 }
 
+.body-keahlian a{
+    text-decoration: none;
+}
+
 .body-keahlian{
     margin-top: 4rem;
     margin-bottom: 3rem;
