@@ -54,6 +54,26 @@ section{
     background-color: #3CCF4E;
     border-radius: 10%;
 }
+
+.body-jumbotron .link-media a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(44, 161, 33, 0.5);
+    margin-right: 10px;
+    border-radius: 50%;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    color: #FAFDD6;
+    transition: all 0.5s ease;
+}
+
+.body-jumbotron .link-media a:hover{
+    color: #003865;
+    background-color: #3CCF4E;
+}
+
 /* akhir jumbotron */
 
 /* about */
@@ -95,6 +115,10 @@ section{
 .body-keahlian .card{
     background-color: #FAFDD6;
     border: none;
+}
+
+.body-keahlian .card:hover{
+    
 }
 
 .body-keahlian .card-title{
@@ -269,7 +293,7 @@ h5{
 
 
 /* responsive mobile apps */
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
 
     /* body-jumbotron */
     .body-jumbotron{
@@ -283,10 +307,18 @@ h5{
         margin-bottom: 2rem;
     }
 
+    .text-about{
+        text-align: center;
+    }
+
     /* body-keahlian */
     .body-keahlian{
         margin-top: 1rem;
         margin-bottom: 2rem;
+    }
+
+    .text-keahlian{
+        text-align: center;
     }
 
     /* body-projek */
