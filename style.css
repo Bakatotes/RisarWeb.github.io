@@ -116,16 +116,23 @@ section{
     margin-bottom: 3rem;
 }
 
-.body-keahlian .card{
+.body-keahlian .card-body{
+    border: none;
+}
+
+.body-keahlian .card-body{
     background-color: #FAFDD6;
     border: none;
+    border-radius: 10px;
+    overflow: hidden;
 
     transition: 0.5s ease;
     cursor: pointer;
 }
 
-.body-keahlian .card:hover{
+.body-keahlian .card-body:hover{
     transform: scale(1.2);
+    z-index: 1;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
@@ -149,7 +156,21 @@ section{
     border-radius: 10px;
     border: none; 
     margin-bottom: 1rem;
+}
 
+.body-project .img-projek{
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.body-project .img-projek:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .img-projek{
@@ -332,10 +353,26 @@ h5{
         text-align: center;
     }
 
+    .body-keahlian .card{
+        width: 80%;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+
+    .body-keahlian .card-row{
+        justify-content: center;
+    }
+
     /* body-projek */
     .body-project{
         margin-top: 1rem;
         margin-bottom: 2rem;
+    }
+
+    .body-project .img-projek{
+        width: 80%;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
     /* body-contact */
