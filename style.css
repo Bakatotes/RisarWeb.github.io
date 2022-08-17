@@ -59,7 +59,7 @@ section{
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgba(44, 161, 33, 0.5);
+    background-color: rgba(27, 201, 11, 0.719);
     margin-right: 10px;
     border-radius: 50%;
     margin: 0 10px 10px 0;
@@ -67,11 +67,16 @@ section{
     line-height: 40px;
     color: #FAFDD6;
     transition: all 0.5s ease;
+    cursor: pointer;
+    overflow: hidden;
 }
 
 .body-jumbotron .link-media a:hover{
-    color: #003865;
-    background-color: #3CCF4E;
+    color: #3CCF4E;
+    background-color: #003865;
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 /* akhir jumbotron */
