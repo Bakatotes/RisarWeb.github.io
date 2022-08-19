@@ -87,6 +87,32 @@ section{
     margin-bottom: 3rem;
 }
 
+.CV{
+    background-color: #3CCF4E;
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    overflow: hidden;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.CV:hover{
+    background-color: #003865;
+    color: #3CCF4E;
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.body-about h6{
+    color: #3CCF4E;
+    font-family: 'Nunito', sans-serif;
+}
+
 .heading1{
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
