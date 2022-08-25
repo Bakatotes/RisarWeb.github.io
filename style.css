@@ -129,6 +129,32 @@ section{
     font-family: 'Roboto', sans-serif;
     color: #989A99;
 }
+
+.container .skill-skrol{
+    box-sizing: border-box;
+}
+
+.container .skill-skrol{
+    display: flex;
+    overflow-x: scroll;
+    padding: 24px;
+    
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+}
+
+.container .item{
+    flek: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+}
+
+.card-row{
+    padding-top: 1.5rem;
+}
 /* akhir about */
 
 /* keahlian */
