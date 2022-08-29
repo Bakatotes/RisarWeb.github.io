@@ -200,6 +200,39 @@ section{
 .body-keahlian .card-text{
     color: #7F8B52;
     font-family: 'Roboto', sans-serif;
+    
+}
+
+.body-keahlian h6{
+    color: #3CCF4E;
+    font-family: 'Nunito', sans-serif;
+}
+.sertifikat{
+    background-color: #3CCF4E;
+    width: 50%;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    overflow: hidden;
+    
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.body-keahlian .fa-solid{
+    font-size: 15px;
+    color: #ffffff;
+    margin-left: 4px;
+}
+.sertifikat:hover{
+    background-color: #003865;
+    color: #ffffff;
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 /* akhir keahlian */
 
