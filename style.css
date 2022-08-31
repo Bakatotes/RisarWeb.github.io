@@ -102,7 +102,7 @@ section{
 }
 .CV:hover{
     background-color: #003865;
-    color: #3CCF4E;
+    color: #ffffff;
     transform: scale(1.2);
     z-index: 1;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
@@ -197,6 +197,10 @@ section{
     color: #3CCF4E;
 }
 
+.text-keahlian{
+    text-align: justify;
+}
+
 .body-keahlian .card-text{
     color: #7F8B52;
     font-family: 'Roboto', sans-serif;
@@ -271,6 +275,36 @@ section{
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.pilihan{
+    justify-content: center;
+}
+
+.pilihan .btn-pilihan{
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: 15px;
+    width: 15%;
+    height: 30px;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    background-color: #3CCF4E;
+    border-radius: 15px;
+    border: none;
+    overflow: hidden;
+    
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.btn-pilihan:hover{
+    background-color: #003865;
+    color: #ffffff;
+    transform: scale(1.2);
+    z-index: 1;
+}
+
 /* akhir project */
 
 /* contact */
@@ -463,6 +497,11 @@ h5{
         width: 80%;
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+
+    .pilihan .btn-pilihan{
+        width: 100px;
+        height: 30px;
     }
 
     /* body-contact */
